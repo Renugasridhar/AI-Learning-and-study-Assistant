@@ -1,0 +1,86 @@
+TOPIC: Data Structures - Arrays
+CATEGORY: data_structures
+An array is a collection of elements identified by index, stored in contiguous memory locations.
+Key points: fixed size in most languages, O(1) access by index, O(n) insertion/deletion in the middle.
+Common operations: traversal, insertion, deletion, searching (linear/binary), sorting.
+Practice tip: implement array rotation, reversing an array, and finding the second largest element.
+
+TOPIC: Data Structures - Linked List
+CATEGORY: data_structures
+A linked list is a linear data structure where each element (node) points to the next node.
+Types: singly linked list, doubly linked list, circular linked list.
+Key points: O(1) insertion/deletion at head, O(n) search, no random access like arrays.
+Practice tip: implement reversing a linked list and detecting a cycle using Floyd's algorithm.
+
+TOPIC: Data Structures - Stack and Queue
+CATEGORY: data_structures
+A stack follows LIFO (Last In First Out); a queue follows FIFO (First In First Out).
+Stack operations: push, pop, peek. Queue operations: enqueue, dequeue.
+Use cases: stack for recursion/undo operations, queue for scheduling/BFS traversal.
+Practice tip: implement a stack using two queues and vice versa.
+
+TOPIC: DBMS - Normalization
+CATEGORY: dbms
+Normalization is the process of organizing data to reduce redundancy and improve data integrity.
+Normal forms: 1NF (atomic values), 2NF (no partial dependency), 3NF (no transitive dependency), BCNF.
+Key points: normalization reduces redundancy but may increase the number of joins needed in queries.
+Practice tip: practice converting an unnormalized table into 3NF step by step.
+
+TOPIC: DBMS - SQL Joins
+CATEGORY: dbms
+Joins combine rows from two or more tables based on a related column.
+Types: INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, SELF JOIN.
+Key points: INNER JOIN returns only matching rows; LEFT JOIN returns all rows from the left table plus matches.
+Practice tip: write queries using each join type on a sample Students and Courses table.
+
+TOPIC: DBMS - Transactions and ACID
+CATEGORY: dbms
+A transaction is a sequence of operations performed as a single logical unit of work.
+ACID properties: Atomicity, Consistency, Isolation, Durability.
+Key points: isolation levels (Read Uncommitted, Read Committed, Repeatable Read, Serializable) control concurrency issues.
+Practice tip: explain dirty read, non-repeatable read, and phantom read with examples.
+
+TOPIC: Operating Systems - Process Scheduling
+CATEGORY: operating_systems
+CPU scheduling decides which process runs next on the CPU.
+Algorithms: FCFS, SJF, Round Robin, Priority Scheduling.
+Key points: Round Robin uses a time quantum and is preemptive; FCFS is simple but can cause the convoy effect.
+Practice tip: calculate average waiting time and turnaround time for a given set of processes.
+
+TOPIC: Operating Systems - Deadlock
+CATEGORY: operating_systems
+A deadlock occurs when a set of processes are blocked because each is waiting for a resource held by another.
+Necessary conditions: mutual exclusion, hold and wait, no preemption, circular wait.
+Key points: deadlock can be prevented, avoided (Banker's algorithm), detected, or recovered from.
+Practice tip: trace the Banker's algorithm on a sample resource allocation table.
+
+TOPIC: Operating Systems - Memory Management
+CATEGORY: operating_systems
+Memory management handles allocation and deallocation of memory space to processes.
+Techniques: paging, segmentation, virtual memory.
+Key points: paging eliminates external fragmentation but can cause internal fragmentation; thrashing occurs when the system spends more time swapping pages than executing.
+Practice tip: compute page faults for a given reference string using FIFO and LRU.
+
+TOPIC: Computer Networks - OSI Model
+CATEGORY: networks
+The OSI model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application.
+Key points: each layer has a specific responsibility, e.g., Network layer handles routing, Transport layer handles reliable delivery.
+Practice tip: map common protocols (HTTP, TCP, IP, Ethernet) to their correct OSI layer.
+
+TOPIC: Computer Networks - TCP vs UDP
+CATEGORY: networks
+TCP is connection-oriented and reliable; UDP is connectionless and faster but unreliable.
+Key points: TCP uses a three-way handshake (SYN, SYN-ACK, ACK); UDP is used for streaming and gaming where speed matters more than reliability.
+Practice tip: list real-world applications that use TCP versus UDP.
+
+TOPIC: Programming - Python Basics
+CATEGORY: programming
+Python is a high-level, interpreted programming language known for readability.
+Key points: dynamic typing, list/dict/tuple/set data structures, list comprehensions, functions as first-class objects.
+Practice tip: practice writing list comprehensions and understanding mutable vs immutable types.
+
+TOPIC: Programming - Object Oriented Programming
+CATEGORY: programming
+OOP concepts: encapsulation, inheritance, polymorphism, abstraction.
+Key points: encapsulation hides internal state; polymorphism allows the same interface for different data types; abstraction hides implementation details.
+Practice tip: implement a small class hierarchy (e.g., Animal -> Dog, Cat) demonstrating inheritance and polymorphism.
